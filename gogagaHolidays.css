@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #fff;
+    color: #000;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Add this CSS to your existing stylesheet */
+
+.package {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.package h3 {
+    margin-top: 0;
+}
+
+.package p {
+    margin-bottom: 10px;
+}
+
+.package button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+#hotelSearchForm {
+    margin-bottom: 20px;
+}
+
+#hotelSearchForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#hotelSearchForm input[type="text"],
+#hotelSearchForm input[type="date"],
+#hotelSearchForm input[type="number"],
+#hotelSearchForm button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#hotelResults {
+    margin-top: 20px;
+}
+
+.hotel {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.hotel h3 {
+    margin-top: 0;
+}
+
+.hotel p {
+    margin: 5px 0;
+}
+
+.hotel button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+	width: 25%;
+}
+
+#flightSearchForm {
+    margin-bottom: 20px;
+}
+
+#flightSearchForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#flightSearchForm input[type="text"],
+#flightSearchForm input[type="date"],
+#flightSearchForm button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#flightResults {
+    margin-top: 20px;
+}
+
+.flight {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.flight h3 {
+    margin-top: 0;
+}
+
+.flight p {
+    margin: 5px 0;
+}
+
+.flight button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.collection {
+    margin-bottom: 50px;
+}
+
+.collection h3 {
+    margin-bottom: 10px;
+}
+
+.collection p {
+    margin-bottom: 20px;
+}
+
+.package {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.package h4 {
+    margin-top: 0;
+}
+
+.package p {
+    margin: 5px 0;
+}
